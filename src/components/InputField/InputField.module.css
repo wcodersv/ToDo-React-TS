@@ -1,0 +1,38 @@
+.body {
+    height: 70px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.input_field {
+    height: 90%;
+    border: none;
+    padding: 0;
+    width: 100%;
+
+    /* text */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    color: #4d4d4d;
+}
+
+.input_field::placeholder {
+    opacity: 0.2;
+    font-style: italic;
+}
+
+.input_field:focus {
+    outline: none;
+}
+
+
+.image_arrow {
+    background-image: url('../../icons/down_arrow.svg');
+    width: 16px;
+    height: 16px;
+    margin: 0 24px 0 20px;
+    color: #4d4d4d;
+    opacity: 0.2;
+}

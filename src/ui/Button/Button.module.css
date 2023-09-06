@@ -1,0 +1,15 @@
+.button {
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    padding: 7px 9px;
+
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+.active {
+    border: 1.5px solid #ebd7d7;
+    border-radius: 5px;
+}
