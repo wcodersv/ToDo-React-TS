@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    gap: 25px;
 
     padding: 0 15px;
     border-top: #eee solid 1px;
@@ -11,7 +11,8 @@
 
     /* text */
     font-size: 15px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     opacity: 0.5;
 
     position: relative;
